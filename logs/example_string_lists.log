@@ -1,0 +1,24 @@
+2023-09-05 08:25:20,601 =============================================================
+2023-09-05 08:25:20,601 =============================================================
+2023-09-05 08:25:20,601 Today is 2023-09-05 at 08:25 AM
+2023-09-05 08:25:20,602 This file is running on: posix Darwin 21.1.0
+2023-09-05 08:25:20,602 The Python version is: 3.11.4
+2023-09-05 08:25:20,602 The active conda environment is:  None
+2023-09-05 08:25:20,602 The active pip environment is:    None
+2023-09-05 08:25:20,602 The active environment path is:   /Library/Frameworks/Python.framework/Versions/3.11
+2023-09-05 08:25:20,602 The current working directory is: /Users/prabha/Documents/CSIS-44608/datafun-03-datatypes
+2023-09-05 08:25:20,602 This source file is in:           /Users/prabha/Documents/CSIS-44608/datafun-03-datatypes
+2023-09-05 08:25:20,602 =============================================================
+2023-09-05 08:25:20,602 =============================================================
+2023-09-05 08:25:20,602 Calling functions from main block
+2023-09-05 08:25:20,602 Calling process_text_woodchuck()
+2023-09-05 08:25:20,602 The list of words is: ['How', 'much', 'wood', 'would', 'a', 'woodchuck', 'chuck', 'if', 'a', 'woodchuck', 'could', 'chuck', 'wood?', 'He', 'would', 'chuck,', 'he', 'would,', 'as', 'much', 'as', 'he', 'could,', 'and', 'chuck', 'as', 'much', 'wood', 'as', 'a', 'woodchuck', 'would', 'if', 'a', 'woodchuck', 'could', 'chuck', 'wood.']
+2023-09-05 08:25:20,602 There are 38 words in the file.
+2023-09-05 08:25:20,602 The set of unique words is: {'He', 'would,', 'How', 'wood?', 'could,', 'a', 'if', 'woodchuck', 'chuck', 'much', 'could', 'as', 'wood.', 'and', 'wood', 'would', 'he', 'chuck,'}
+2023-09-05 08:25:20,602 There are 18 unique words in the file.
+2023-09-05 08:25:20,602 Calling create_random_sentence()
+2023-09-05 08:25:20,602 Random sentence: The angry mouse crawls quickly.
+2023-09-05 08:25:20,602 Calling create_random_sentence()
+2023-09-05 08:25:20,602 Random sentence: The confused fish swims angrily.
+2023-09-05 08:25:20,602 Calling play_game()
+2023-09-05 08:25:20,602 ready_for_continous_game = True
