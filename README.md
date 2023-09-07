@@ -1,7 +1,9 @@
 # datafun-03-datatypes
 
 > Practice with Python data types, filter(), map(), and list comprehensions
-
+* Repository: datafun-03-datatypes
+* Author : Prabha Sapkota
+* Domain : Biology (Plants)
 
 ## Get Started
 
