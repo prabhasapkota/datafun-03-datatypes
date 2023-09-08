@@ -78,6 +78,65 @@ def list_info():
     logger.info(f"List1 sorted is {sorted_values}")
     logger.info(f"List1 sorted and reversed is {sorted_reversed}")
 
+def list_methods():
+    """This function illustrates methods that can be called on a list"""
+
+    # Make short list and print it
+    lst = [1, 2, 3, 4, 5]
+    logger.info(f"Short list = {lst}")
+
+    # append 10 to the end of the list
+    lst.append(6)
+    logger.info(f"Appending 6 to list gives {lst}")
+
+    # extend the list with another list
+    lst.extend([6, 7, 8])
+    logger.info(f'Extending list with [6, 7, 8] gives {lst}')
+
+    # insert an item at a given position (0 = first item)
+    i = 4
+    newvalue = 44
+    lst.insert(i, newvalue)
+    logger.info(f'Inserting value 44 to position 4 gives {lst}')
+
+    # remove an number 5
+    item_to_remove = 5
+    lst.remove(item_to_remove)
+    logger.info(f'Removing number 5 from list gives {lst}')
+
+    # Count how many times 2 appears in the list
+    ct_of_2 = lst.count(2)
+    logger.info(f'How many times is 2 in lst: {ct_of_2}')
+
+    # Sort the list in ascending order using the sort() method
+    lst.sort()
+    logger.info(f'Sorted list = {lst}')
+
+    # Sort the list in descending order using the sort() method
+    lst.sort(reverse=True)
+    logger.info(f'Descending sorted list = {lst}')
+
+    # Copy the list to a new list
+    new_lst = lst.copy()
+    logger.info(f"new_lst is = {new_lst}")
+
+    # Remove the first item from the new list
+    # The first item in a list is at index 0
+    # Think of it as an offset from the beginning of the list
+    first = new_lst.pop(0)
+    logger.info(
+        f"Popped the first (index=0): {first} and now, new_lst is: {new_lst}"
+    )
+
+    # Remove the last item from the new list
+    # The last item in a list is at index -1
+    last = new_lst.pop(-1)
+    logger.info(
+        f"Popped the last (index=-1): {last} and now, new_lst is: {new_lst}"
+    )
+
+
+
 
 def list_transformation():
     logger.info(f"General transformations of list1: {list1}")
@@ -131,6 +190,10 @@ if __name__ == "__main__":
     logger.info("***==============================================***")
     logger.info("CALLING list_info")
     list_info()
+
+    logger.info("***==============================================***")
+    logger.info("CALLING list_methods")
+    list_methods()
 
     logger.info("***==============================================***")
     logger.info("CALLING list_transformation")
