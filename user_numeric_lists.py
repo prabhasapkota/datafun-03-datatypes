@@ -16,6 +16,7 @@ from util_datafun_logger import setup_logger
 logger, logname = setup_logger(__file__)
 
 # TODO: Create some shared data lists if you like - or just create them in your functions
+# "List1 represents the totalo leafnumbers per cucumber plants in a research field."
 list1 = [3,5,8,9,2,12,14,19,2,8,8,10,9,9,7,11,15,19,7,7,7,11,3,3,1,16,11,4,4,8,10]
 
 listx = [1,2,3,4,5,6,7,8,9,10]
@@ -23,7 +24,7 @@ listy = [1,2,2,3,5,4,4,6,4,5]
 
 # TODO: define some custom functions
 def measures_of_central_tendency():
-    logger.info(f"Points scored: {list1}")
+    logger.info(f"Leaf numbers: {list1}")
     logger.info(f"Range to 10: {listx}")
 
     mean = statistics.mean(list1)
