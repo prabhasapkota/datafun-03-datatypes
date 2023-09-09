@@ -4,8 +4,6 @@ Modify this docstring.
 """
 
 # imports first
-import math
-import statistics
 import random
 
 #set up logging
