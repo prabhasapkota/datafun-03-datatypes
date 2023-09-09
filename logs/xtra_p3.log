@@ -1,0 +1,23 @@
+2023-09-08 22:53:15,133 =============================================================
+2023-09-08 22:53:15,133 =============================================================
+2023-09-08 22:53:15,133 Today is 2023-09-08 at 10:53 PM
+2023-09-08 22:53:15,133 This file is running on: posix Darwin 21.1.0
+2023-09-08 22:53:15,133 The Python version is: 3.11.4
+2023-09-08 22:53:15,133 The active conda environment is:  None
+2023-09-08 22:53:15,133 The active pip environment is:    None
+2023-09-08 22:53:15,133 The active environment path is:   /Library/Frameworks/Python.framework/Versions/3.11
+2023-09-08 22:53:15,133 The current working directory is: /Users/prabha/Documents/CSIS-44608/datafun-03-datatypes
+2023-09-08 22:53:15,133 This source file is in:           /Users/prabha/Documents/CSIS-44608/datafun-03-datatypes
+2023-09-08 22:53:15,133 =============================================================
+2023-09-08 22:53:15,133 =============================================================
+2023-09-08 22:53:15,138 Calling functions from main block
+2023-09-08 22:53:15,138 Calling compare_two_plays()
+2023-09-08 22:53:15,141 len(longwordset1) = 415
+2023-09-08 22:53:15,141 len(longwordset2) = 197
+2023-09-08 22:53:15,142 len(longwords) = 13
+2023-09-08 22:53:15,142 =====================================================
+2023-09-08 22:53:15,142 =====================================================
+2023-09-08 22:53:15,142 doctest.testmod results
+2023-09-08 22:53:15,142 TESTING...if nothing prints before the testing is done, you passed!
+2023-09-08 22:53:15,148 TESTING DONE
+2023-09-08 22:53:15,148 Complete the code to compare two plays.
